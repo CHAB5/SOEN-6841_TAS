@@ -1,0 +1,251 @@
+\documentclass[letterpaper, 11pt]{report}
+\usepackage{titlesec}
+\usepackage{fullpage} % changes the margin
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx} %package to manage images
+\usepackage[linkcolor=red]{hyperref}
+\usepackage{paralist}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{tabularx}
+\graphicspath{ {./images/} }
+
+\begin{document}
+\begin{titlepage}
+\vspace*{0.7in}
+\begin{center}
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=9cm]{CON_UNIV_LOGO.png}
+\end{center}
+\end{figure}
+\vspace*{0.3in}
+\begin{Large}
+\textbf{SOEN 6841: SOFTWARE PROJECT MANAGEMENT} \\
+\end{Large}
+\vspace*{0.1in}
+\begin{Large}
+\textbf{Fall 2023} \\
+\end{Large}
+\vspace*{0.9in}
+\begin{Large}
+\textbf{Topic Analysis and Synthesis
+\\
+Buying Ready-Made Software} \\
+\end{Large}
+\vspace*{0.75in}
+\begin{Large}
+\textbf{\emph{Submitted to:}} \
+\vspace*{0.6in}
+Dr. Pankaj Kamthan\\
+\textbf{\emph{Author}} \\
+\vspace*{0.2in}
+Student Name: Chandana Basavaraj\\
+Student ID: 40195862 \\
+\vspace*{0.2in}
+\href{https://github.com/CHAB5/SOEN-6841_TAS}{Github Link}
+\end{Large}
+\end{center}
+\end{titlepage}
+\tableofcontents
+\newpage
+\addcontentsline{toc}{section}{1. Abstract}
+\section*{1. Abstract}
+The topic emphasizes how important it is to conduct thorough planning and assessment before purchasing ready-made software for usage within a company. It highlights that although this kind of software might increase productivity, difficulties frequently arise during the integration and customization stages. Before signing contracts, the author suggests taking a careful strategy that includes thorough testing plans, vendor evaluations, on-site assessments, and specific checklists in order to reduce risks. The key point is that potential implementation problems can be avoided by allocating time up front to pinpoint precise organizational demands and carefully examine software capabilities.\\
+
+The paragraph emphasizes how important it is to go through this thorough decision-making process, regardless of the standing of the software vendor or how important the application is to the overall functioning of the company. The article makes the case for a methodical and well-informed strategy, arguing that doing so will pay off in the long run by averting issues and monetary losses after adoption. Essentially, it pushes businesses to emphasize a careful and deliberate process when acquiring ready-made software, understanding that the initial research and analysis greatly reduces long-term expenses and improves productivity.\\
+
+\addcontentsline{toc}{section}{2.Introduction}
+\section*{2. Introduction}
+\subsubsection*{2.1 Motivation}
+\addcontentsline{toc}{subsection}{2.1 Motivation}
+\normalsize {The dual mix of promise and obstacles is what drives the need for a methodical approach to purchasing ready-made software. Even though these solutions can be quickly implemented and have functioning right away, the modern business environment necessitates a careful balance. It is necessary to balance the potential complications during customisation and integration into organizational structures with the attractiveness of rapid adoption. The knowledge that successful software deployment requires more than just the first purchase serves as the driving force.\\
+
+Adopting prefabricated solutions quickly without carefully coordinating them with organizational requirements may result in unanticipated expenses and operational problems. Due diligence requires a time commitment up front and includes thorough checklists, on-site inspections, and stringent testing schedules in order to prevent these traps. This systematic strategy guarantees an efficient and cost-effective adoption of ready-made software, protecting both operational integrity and lasting financial health, while also ensuring seamless alignment with company goals and maximizing both time and cost aspects.\\
+ }
+
+%\clearpage
+%\newpage
+
+\subsubsection*{2.2 Problem Statement}
+\addcontentsline{toc}{subsection}{2.2 Problem Statement}
+\normalsize {Even with the obvious benefits of purchasing ready-made software, there is still a significant issue with project management and organizational effectiveness. The main difficulty appears in the post-contract stages, especially when it comes to integrating new software and modifying old systems. In their quest for expedited deployment and economical efficiency, organizations frequently encounter unanticipated challenges that may compromise the projected advantages of ready-made solutions. The challenge of precisely determining whether the features promised in demos will smoothly mesh with particular company and product area requirements complicates this issue.\\
+
+After a contract is signed, the testing phase highlights the inherent complexity of modification and integration, which can result in cost overruns and disruptions to business operations. The lack of a comprehensive and regulated pre-contract evaluation process worsens this problem even further, leaving businesses open to compatibility problems that could arise once the software is made available to end users. Therefore, the problem statement centers on the requirement for a methodical and thorough procurement procedure, with the goal of filling in any gaps and guaranteeing that the functions anticipated during the process of procurement precisely match the organization's real-world requirements. In an effort to shed light on this ongoing issue, this inquiry advocates for a proactive and comprehensive pre-contract evaluation method in order to reduce risks and improve the overall performance of ready-made software.\\
+ }
+
+\subsubsection*{2.3 Objectives}
+\addcontentsline{toc}{subsection}{2.3 Objectives}
+\normalsize {The main goal of Topic Analysis and Synthesis is to give decision-makers and project managers a thorough framework for navigating the challenges involved in purchasing ready-made software. Acknowledging the prevalent obstacles in the post-contract stages, the report seeks to provide professionals with the skills and resources required to guarantee the smooth incorporation of off-the-shelf technologies into an enterprise's current framework. The research aims to improve the general effectiveness and efficiency of the implementation process by analyzing the complexities of software modification and highlighting the significance of pre-contract evaluations.\\
+
+The establishment of a uniform set of standards that companies may adhere to in the pre-contract stage is a secondary goal, as it reduces the possibility that compatibility problems will surface during testing or deployment. In order to do this, complete checklists detailing the organization's unique software requirements must be created. Detailed vendor evaluation reports, test cases, and plans must also be developed, along with extensive on-site due diligence reports. The report's objective is to enable companies to make well-informed procurement decisions by providing these principles, which will guarantee that the functions assumed during demonstrations properly match the practical needs of the company and product areas.\\
+
+Finally, the paper aims to highlight the time and money savings as well as the long-term cost advantages of devoting time and resources to a thorough pre-contract review. The goal is to assist businesses in making strategic choices that not only meet their short-term demands but also lead to long-term efficiency improvements by promoting a proactive approach to spotting possible gaps and comprehending the complexities of software modification. With the help of these goals, the report hopes to be a useful tool for project managers negotiating the ready-made software procurement market, encouraging a comprehensive and methodical approach to optimize successful implementation of the project.\\
+
+ }
+ 
+%\newpage
+
+\addcontentsline{toc}{section}{3. Defining Terms}
+\section*{3. Defining Terms}
+\begin{enumerate}
+    \item Readymade software: Software that has been pre-packed with preset features that are difficult to alter is referred to as "readymade" or "packaged" software. These commercial items are usually offered to businesses of different sizes as a one-time purchase or on a subscription basis. Because the features are made to be simple to use, you can utilize them right away after buying. Because of its well-established technology and intuitive user interface, packaged software is frequently considered the best option for integrating technology—that is, unless it is a recently released product. Choosing ready-made software has benefits and drawbacks, which we shall discuss in more detail in the section that follows.
+
+    \item Legacy System: Any old computer system (hardware and software combined) that is still in use is called a legacy system. Programming languages, file formats, software programs, and computer hardware are all included in this category of outdated technology. That being said, it's important to remember that many legacy systems are still in good working order despite being obsolete. Businesses usually choose to stick with legacy systems that are essential to their day-to-day operations and fulfillment of business needs.
+
+    \item Due diligence report: Software due diligence, often a part of technology due diligence, is evaluating and assessing the software engineering and code base, with a focus on potential risks resulting from issues including poor quality, unreliable technological foundations, and inadequate scalability. The fact that a software due diligence is occasionally provided in conjunction with a technological, technical, or even IT due diligence does not adequately convey the intricacy of the subject. To avoid errors, investors should make sure that the appropriate scope, knowledge, and analysis techniques are applied. 
+
+    \item Vendor evaluation: Vendor evaluation is the process of evaluating and approving possible suppliers and vendors to make sure they can fulfill the requirements and standards specified by an organization after a contract is signed. The ultimate goal is to create a portfolio of suppliers and vendors that is high-quality and low-risk. Even though the vendor assessment process might be difficult, there are benefits, such as being able to find low-risk suppliers of excellent products and services. It also encourages the development of long-lasting, mutually beneficial commercial partnerships.
+    
+\end{enumerate}
+
+\addcontentsline{toc}{section}{4. Benefits and Drawbacks of using Ready-Made Software}
+\section*{3. Benefits and Drawbacks of using Ready-Made Software}
+\subsubsection*{3.1 Major benefits of using ready-made software}
+\addcontentsline{toc}{subsection}{3.1 Major benefits of using ready-made software}
+\begin{enumerate}
+    \item Immediate implementation: Businesses are able to quickly integrate and make use of the system thanks to the quick deployment and purchase of ready-made software. This is a major advantage of using ready-made software since it provides functionality tailored to the sector quickly. As a result, companies avoid wasting time on unnecessary steps and may focus on other organizational improvements. This is in contrast to the sometimes drawn-out process of developing custom software.
+
+    \item Cost-effective: Industry analysts argue that buying premade software is an attractive option due to its low costs and improved return on investment (ROI). Compared to custom-built software, packaged software solutions are typically less expensive because they are not usually customized to meet the specific demands of the user and have less flexibility.
+
+    \item Proven technology: Pre-made software has been tested and used by many clients, demonstrating its dependability and applicability to a wide range of users. Users can evaluate the effectiveness and assistance offered by the companies that sell the packaged software.
+
+    \item Immediate Assistance and Ongoing Enhancements: The majority of ready-made software providers provide thorough documentation and technical support, which is especially helpful for companies that are not familiar with the program. To ensure best use, these software packages also include user manuals and training materials. Additionally, since suppliers continuously release updates and bug fixes to guarantee the software's continued proper functionality, businesses who use prepackaged software are spared of maintenance issues.
+
+    \item Tailoring and Scalability: As was previously said, pre-configured features in off-the-shelf IT solutions make them difficult to modify to meet changing needs. Many pre-made software solutions are built to handle large amounts of data and are easily expandable with readily available add-ons to meet the expanding needs of the organization as it grows.
+\end{enumerate}
+\subsubsection*{3.2 Drawbacks of using ready-made software}
+\addcontentsline{toc}{subsection}{3.2 Drawbacks of using ready-made software}
+\begin{enumerate}
+    \item Less Flexible for Growing Requirements:Although ready-made software initially satisfies particular objectives, it frequently lacks the flexibility needed to accommodate changing organizational requirements. These solutions can find it difficult to scale properly or accept additional functionalities as firms expand and change, which would limit customisation.
+
+    \item Feature Rich but with Unused Functions: There are many functions included in off-the-shelf software packages, some of which might not be needed for a given business. This may lead to a confusing user interface, more training costs, and possible inefficiencies as users pick through features that have no bearing on their daily tasks.
+
+    \item Dependency on Publisher for Maintenance: Businesses that use off-the-shelf software are at the mercy of the publisher for upkeep, upgrades, and compliance with an application's lifespan. Due to this dependence, important updates may not be implemented on time, putting the company at risk for security breaches and preventing it from using the newest features.
+
+    \item Absence of Attention to Needs: Pre-made software might not meet all of an organization's unique needs. Workflows and business processes may be compromised as a result of this misalignment because the software may not accurately meet the organization's specific requirements.
+
+    \item Lack of Ownership and Control: Customers that purchase off-the-shelf software have no influence over how the product is developed and improved. A lack of control and ownership over the product's progress results from customization possibilities that are frequently limited to what the software publisher permits.
+
+    \item Long-term Cost Implications: Although ready-made software might first appear to be affordable, there may be long-term expenses involved. Before settling on a ready-made solution, it is crucial to carefully consider the long-term cost implications because customization, continuing support, and prospective licensing fees for extra features can all add up to unexpected charges.
+    
+\end{enumerate}
+
+
+%\newpage
+\addcontentsline{toc}{section}{4. Methods and Methodology}
+\section*{4. Methods and Methodology}
+\subsubsection*{4.1 Decision-making process}
+\addcontentsline{toc}{subsection}{4.1 Decision-making process}
+\normalsize{Organizations should look beyond the initial acquisition expenses when assessing whether to construct or buy. The availability of technical experience and subject matter knowledge, which frequently proves to be a crucial difference favoring building owing to the specialized skills necessary, should be included in the comparison along with other important criteria. The significance of matching solutions to particular demands is underscored by the distinctiveness of organizational requirements in comparison to market options. Crucial components of the decision-making process involve accomplishing targeted business process enhancements, imagining the customer experience, and evaluating long-term support risks associated with staffing, tools, and software.\\
+
+Organizations must assess the reliability and durability of the available solutions and the businesses that support them, since the viability and longevity of product and solution vendors are critical factors. Other variables that need to be carefully considered include the budget, data analytics capability, integration with current company software, and deployment pace. Each option's dangers and implications for cybersecurity need to be carefully considered. Organizations must acknowledge and take into account the distinctive qualities of each of these elements in order to make an informed decision, even though a thorough examination of these aspects serves as a guide.\\
+
+Therefore, the process of making decisions entails a comprehensive analysis of variables that go beyond direct expenses. Technical know-how, specific requirements, business process enhancements, customer experience factors, long-term maintenance risks, product sustainability, implementation speed, data analytics capabilities, integration opportunities, financial ramifications, and cybersecurity risks are all factors that organizations need to take into account. Making an educated choice on whether to purchase or construct requires that the study be specifically tailored to the demands of the organization.\\
+}
+\subsubsection*{4.1 Approach}
+\addcontentsline{toc}{subsection}{4.1 Approach}
+\normalsize{To address the challenges associated with the procurement of ready-made software, a thorough methodology has been painstakingly established, focusing on two essential elements. The foundation of this approach is the creation of a methodical framework for pre-contract appraisal. This fundamental component comprises the development of an extensive checklist intended to systematically evaluate the software requirements, guidelines, processes, and legacy systems of a company. By applying this framework methodically, organizations are able to proactively detect possible gaps and make sure that the software functionalities are precisely aligned with the demands of their business and product categories.\\
+
+The promotion of proactive risk reduction techniques included into the pre-contract review process is the second essential element of this strategy. This entails a rigorous procedure for recognizing and recording any difficulties that may arise during software integration and modification. Organizations are able to create strategies that effectively close gaps by tackling these concerns in an organized manner early on. This reduces the possibility that problems will arise during later stages, such testing and deployment. This tactic is deliberately employed to strengthen the procurement procedure, encouraging a proactive approach that facilitates a more seamless and fruitful deployment of ready-made software solutions.\\
+}
+
+\subsubsection*{4.2 Techniques Used}
+\addcontentsline{toc}{subsection}{4.2 Techniques Used}
+\normalsize{Several strategies are used in the process of purchasing pre-made software in order to guarantee a comprehensive assessment and a smooth integration. These methods consist of:
+\begin{enumerate}
+    \item Detailed Needs Analysis: Perform a thorough examination of the organization's software requirements, consulting with important stakeholders to develop detailed checklists outlining the necessary functional and technical requirements.
+    
+    \item On-Site Assessments: Conduct assessments on-site to gain an understanding of the organization's current systems, rules, and processes. The due diligence procedure offers insightful information about the environment in which the new software will function.
+    
+    \item Vendor Evaluation Matrix: To objectively evaluate possible vendors based on factors including reputation, experience, competence, and the capacity to offer required support, create a vendor evaluation matrix.
+
+    \item Thorough Testing: Develop thorough test cases and a thorough testing strategy to methodically assess the performance, compatibility, and functionality of the product. To find possible problems, this comprises both generic and unique test cases.
+
+    \item Documentation Protocols: Establish stringent procedures for documentation to capture conclusions, choices, and agreements made during the purchase process. This record guarantees decision-making transparency and acts as a guide for later phases.
+
+    \item Gap Analysis Techniques: To find discrepancies between the software's default features and the particular needs of the company, apply gap analysis methodologies. This entails comparing and documenting features and functionalities in an organized manner.
+
+    \item Collaborative Workshops: Together with the vendor, conduct cooperative workshops to talk about gaps that have been found and create a plan for customisation. This guarantees that everyone is aware of the necessary adjustments and the related deadlines.
+
+    \item Agile Communication Channels: Create flexible routes of communication between the vendor and the company to enable continuous communication. This guarantees that new problems are dealt with quickly, encouraging a cooperative and flexible approach to problem-solving.
+\end{enumerate}
+\normalsize{
+By using these strategies, businesses may reduce risks, methodically handle the procurement process, and make well-informed decisions that result in a successful and customized incorporation of ready-made software into their current systems.
+}
+
+\newpage
+\addcontentsline{toc}{section}{5. Results}
+\section*{5. Results}
+\normalsize{The application of the methodical strategy for obtaining ready-made software produced thorough insights and results in several areas of the procurement procedure.
+}
+\subsubsection*{5.1 Conditions}
+\addcontentsline{toc}{subsection}{5.1 Conditions}
+\normalsize{The organizational conditions evaluation demonstrates a thorough comprehension of the particular software requirements and needs. By creating comprehensive checklists, the group can methodically record necessary circumstances that affected the choice and adjustment of the program. Due diligence conducted on-site helps to create a contextual awareness of the settings in which the software would function by offering more subtle insights into the current practices, regulations, and systems. The foundation for a customized strategy can be established by studying the conditions, which guarantees that the selected software easily integrates with the organization's particular operational setting.
+}
+
+\subsubsection*{5.2 Constraints}
+\addcontentsline{toc}{subsection}{5.2 Constraints}
+\normalsize{Crucial components of the outcomes will help in the identification and alleviation of restrictions. The stringent evaluation procedure for vendors aims to detect any possible limitations associated with the chosen provider, such insufficient experience or knowledge. The gap analysis method plays a key role in identifying gaps between the software's default features and the particular needs of the company, that points out the limitations that need to be fixed through modification. The collaborative agreement fosters mutual understanding between the business and the provider prior to deployment by establishing explicit parameters for managing restrictions. Constraints can be methodically found and fixed through proactive testing and ongoing communication, that would guarantee a more seamless integration process.
+}
+
+\subsubsection*{5.3 Quality}
+\addcontentsline{toc}{subsection}{5.3 Quality}
+\normalsize{ The effectiveness and efficiency of the entire procurement process are the main topics of the quality assessment. A thorough testing strategy and extensive test cases are essential in assessing the software's functionality and compatibility. By offering an open record of conclusions and agreements, the documentation protocols are crucial in preserving the caliber of decision-making processes. The collaborative agreement and ongoing channels of communication will enable good vendor-organization partnership. The outcomes of the gap analysis provide guidance for a customization plan that seeks to improve the degree of software alignment with the particular needs of the company. To summarize, the strategy when put into practice produces a first-rate procurement process that makes sure that the ready-built software that was purchased satisfies the requirements of the company while also successfully handling any limitations.
+}
+
+\addcontentsline{toc}{section}{6. Conclusion and Future Work}
+\section*{6. Conclusion and Future Work}
+\subsubsection*{6.1 Suggestions}
+\addcontentsline{toc}{subsection}{6.1 Suggestions}
+\normalsize{The recommended strategy and methods offer a solid foundation for overcoming the difficulties associated with purchasing ready-made software. It is advised that going forward, businesses think about improving the due diligence procedure by introducing cutting-edge technologies, such artificial intelligence, for better predictive insights. Furthermore, ongoing testing methodology development, such as the investigation of automated testing technologies, might further optimize the assessment procedure. Fostering industry alliances to exchange benchmarks and best practices is another suggestion. This would build a common knowledge base for software procurement techniques that are more successful.
+}
+
+\subsubsection*{6.2 Limitations}
+\addcontentsline{toc}{subsection}{6.2 Limitations}
+\normalsize{Even if the strategy described proves to be effective, there are certain things to be aware of. In industries that are changing quickly, relying solely on historical information during the due diligence stage may present difficulties. Furthermore, outside variables like abrupt changes in the market or in organizational leadership may have an impact on how well the selected methodology works. Subsequent endeavors ought to concentrate on enhancing the methodology to adjust to changing circumstances and integrating real-time data analytics for more flexible decision-making.
+}
+
+\subsubsection*{6.3 Applications}
+\addcontentsline{toc}{subsection}{6.3 Applications}
+\normalsize{There are several applications for the conclusions and methods described in this analysis in different industries and areas. From tiny firms to major corporations, a variety of organizational scenarios can benefit from the methodical approach to software purchase. Moreover, the aforementioned concepts hold true for both custom software development projects and ready-made software, increasing their applicability and importance along the entire spectrum of technology adoption.
+}
+
+\subsubsection*{6.4 Conclusion}
+\addcontentsline{toc}{subsection}{6.4 Conclusion}
+\normalsize{To sum up, this report's systematic pre-contract evaluation strategy to purchasing ready-made software shows to be successful in guaranteeing the smooth integration of technological solutions within organizational frameworks. A customized procurement process will be produced as a result of the focus on thorough checklists, due diligence, vendor evaluation, testing, documentation, and cooperative agreements. Through condition-addressing, constraint-mitigating, and quality-focused approaches, the strategy helps software to be strategically aligned with organizational needs. Despite these drawbacks, the general efficacy of this strategy emphasizes how important it is to optimize software acquisition for increased organizational effectiveness and efficiency.
+}
+
+\subsubsection*{6.5 Future Work}
+\addcontentsline{toc}{subsection}{6.5 Future Work}
+\normalsize{In order to improve the due diligence procedure, future research in this field should investigate the integration of cutting-edge technology like machine learning and predictive analytics. Future advancements could come from the creation of more complex testing procedures, which might include automated testing using artificial intelligence. Further research into the scalability of the proposed approach for other sizes and industries would enhance its wider applicability. Ongoing investigation into industry best practices and developing technologies will guarantee that the suggested strategy remains relevant and efficient. Lastly, a possible direction for further research is to examine how blockchain technology may be integrated into vendor agreements to improve security and transparency.
+}
+
+\addcontentsline{toc}{section}{7. References}
+\section*{7. References}
+ 
+\href{https://www.smartsheet.com/content/vendor-assessment-evaluation}{1. Diana Ramos, "Vendor Assessment and Evaluation Simplified" June 18, 2020 [Online].}.\\
+
+\href{https://capeofgoodcode.com/en/software-due-diligence#}{2. "Software Due Diligence", Cape of Good Code [Online].}.\\
+
+\href{https://www.techtarget.com/searchitoperations/definition/legacy-application}{3. "legacy system (legacy application)", Nick Barney, Margaret Rouse, Emily Mell [Online].}.\\
+
+\href{https://www.segalco.ca/consulting-insights/build-vs-buy-software}{4. "Build Vs. Buy Software: Which is Right For You?", Segal, March 31, 2021 [Online].}.\\
+
+\href{https://www.formstack.com/blog/7-things-to-consider-before-buying-software}{5. "7 Things to Consider Before Buying Software", Lindsay Mcguire, December 2, 2019 [Online].}.\\
+
+\href{https://www.solzit.com/readymade-software-vs-custom-software/}{6. "Using A Readymade Software Vs Developing A Custom Software", Soluzione, January 12, 2023 [Online].}.\\
+
+\href{https://five.co/blog/build-vs-buy-software/#the-buy-software-approach}{7. "Build vs Buy Software [2023 Definitive Guide]", Cyrus Choy, Aug 2nd, 2023 [Online].}.\\
+
+\href{https://www.aalpha.net/blog/factors-to-consider-when-purchasing-software/}{8. "Factors To Consider When Purchasing Software", Stuti Dhruv, Mar 18, 2021 [Online].}.\\
+
+\href{https://www.techtarget.com/whatis/Step-by-step-instructions-for-how-to-purchase-business-software}{9. "Step-by-step guide to the software purchasing process", Kate Brush, Jun 29, 2021 [Online].}.\\
+
+\href{https://bitcomp.com/2020/12/04/guide-to-buying-a-ready-made-software/}{10. "GUIDE TO BUYING A READY-MADE SOFTWARE", Janne Loikkanen [Online].}.\\
+
+\end{document}
